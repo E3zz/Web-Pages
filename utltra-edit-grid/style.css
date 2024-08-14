@@ -1,0 +1,113 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .items ul {
+    display: flex;
+    gap: 34px;
+  }
+
+  .items ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    width: 900px;
+    display: block;
+    margin-left: 500px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .t-1 h1 {
+    padding-top: 20px;
+    font-family: "Segoe UI";
+    color: #222;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  .t-2 h2 {
+    font-family: "Segoe UI";
+    color: #222;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .btn button {
+    height: 50px;
+    width: 300px;
+    background-color: #09a6bd;
+    font-weight: bold;
+    font-size: 16;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .version {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 60px;
+  }
+  .version h3 {
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: "Segoe UI";
+    font-weight: lighter;
+  }
+ 
+  .btn-green {
+    height: 40px;
+    width: 150px;
+    background-color: #5cb85c;
+    font-weight: bold;
+    font-size: 16;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+  }
+  .btn-green a{
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+  
+.item {
+    padding: 33px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 150px;
+}
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:12px
+}
+
+@media screen and (max-width: 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+}
